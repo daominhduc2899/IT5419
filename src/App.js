@@ -55,7 +55,6 @@ class App extends React.Component {
             <Footer></Footer>
           </div>
         </BrowserRouter>
-        <Footer user={this.state.user} />
       </div>
     );
   }
