@@ -41,7 +41,7 @@ class Nav extends Component {
                         <nav id="navbar" className="navbar">
                             <ul>
                                 <li><a className="nav-link scrollto active" href="/home">Home</a></li>
-                                <li><a className="nav-link scrollto" href="/checkin">Visualization</a></li>
+                                <li><a className="nav-link scrollto" href="/visualization">Visualization</a></li>
 
 
                                 <li><a className="nav-link scrollto" href="/contact">About Us</a></li>
