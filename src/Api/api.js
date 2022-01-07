@@ -18,25 +18,25 @@ axios.interceptors.request.use(
   }
 );
 //response interceptor to refresh token on receiving token expired error
-axios.interceptors.response.use(
-  (response) => {
-    return response;
-  },
-  function (error) {
-    const originalRequest = error.config;
-    if (error.response.status === 401 && !originalRequest._retry && originalRequest.url !== baseUrl + "/auth/refresh_token") {
-      originalRequest._retry = true;
-      return axios.post(`${baseUrl}/refresh_token`).then((res) => {
-        if (res.status === 200) {
-          localStorage.setItem("accessToken", res.data.accessToken);
-          console.log("Access token refreshed!");
-          return axios(originalRequest);
-        }
-      });
-    }
-    return Promise.reject(error);
-  }
-);
+// axios.interceptors.response.use(
+//   (response) => {
+//     return response;
+//   },
+//   function (error) {
+//     const originalRequest = error.config;
+//     if (error.response.status === 401 && !originalRequest._retry && originalRequest.url !== baseUrl + "/auth/refresh_token") {
+//       originalRequest._retry = true;
+//       return axios.post(`${baseUrl}/refresh_token`).then((res) => {
+//         if (res.status === 200) {
+//           localStorage.setItem("accessToken", res.data.accessToken);
+//           console.log("Access token refreshed!");
+//           return axios(originalRequest);
+//         }
+//       });
+//     }
+//     return Promise.reject(error);
+//   }
+// );
 
 axios.defaults.withCredentials = true;
 //functions to make api calls
@@ -56,7 +56,9 @@ const api = {
   logout: () => {
     return axios.post(`${baseUrl}/logout`);
   },
-
+  reqMessage: (body) => {
+    return axios.post(`${baseUrl}/message`,body);
+  }
 };
 
 
