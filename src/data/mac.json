@@ -1,0 +1,87 @@
+[
+    
+  {
+    "Name_Item": "MacBook Pro 2020",
+    "Count_shop": 6,
+    "Min_Price": 27990000,
+    "Image": "https://24hstore.vn/images/products/2021/05/20/large/mac-pro-m1-2020-gray_1621504278_1.jpg"
+  },
+  {
+    "Name_Item": "MacBook Pro 2021",
+    "Count_shop": 2,
+    "Min_Price": 50990000,
+    "Image": "https://24hstore.vn/images/products/2021/11/17/large/macbook-pro-16-inch-2021-m1-max-silver.jpg"
+  },
+  {
+    "Name_Item": "MacBook Pro 2019",
+    "Count_shop": 2,
+    "Min_Price": 23590000,
+    "Image": "https://24hstore.vn/images/products/2021/06/03/large/macbook-pro-16-inch-2019-gray.jpg"
+  },
+  {
+    "Name_Item": "MacBook Pro 2018",
+    "Count_shop": 1,
+    "Min_Price": 22590000,
+    "Image": "https://24hstore.vn/images/products/2021/06/03/large/macbook-pro-13-inch-2018-grey.jpg"
+  },
+  {
+    "Name_Item": "MacBook Pro 2017",
+    "Count_shop": 1,
+    "Min_Price": 16990000,
+    "Image": "https://24hstore.vn/images/products/2021/10/16/large/macbook-pro-15-inch-2017-silver_1634351032.jpg"
+  },
+  {
+    "Name_Item": "MacBook Pro 2016",
+    "Count_shop": 1,
+    "Min_Price": 15590000,
+    "Image": "https://24hstore.vn/images/products/2021/04/06/large/mll42-2016-1.jpg"
+  },
+  {
+    "Name_Item": "MacBook Air 2021",
+    "Count_shop": 3,
+    "Min_Price": 20000000,
+    "Image": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/6/3/636688207026676028_macbookair-1_1.jpg"
+  },
+  {
+    "Name_Item": "MacBook Air 2020",
+    "Count_shop": 3,
+    "Min_Price": 20990000,
+    "Image": "https://24hstore.vn/images/products/2020/11/11/large/macbook-air-2020-m1-gold-3.jpg"
+  },
+  {
+    "Name_Item": "MacBook Air 2019",
+    "Count_shop": 1,
+    "Min_Price": 19990000,
+    "Image": "https://24hstore.vn/images/products/2020/04/20/large/macbook-air-13-inch-mvfn2-2019-1.jpg"
+  },
+  {
+    "Name_Item": "MacBook Air 2018",
+    "Count_shop": 1,
+    "Min_Price": 16990000,
+    "Image": "https://24hstore.vn/images/products/2021/06/02/large/mac-air-13-2018-silver.jpg"
+  },
+  {
+    "Name_Item": "MacBook Air 2017",
+    "Count_shop": 1,
+    "Min_Price": 14990000,
+    "Image": "https://24hstore.vn/images/products/2020/04/08/large/macbook-air-13-inch-mjvg2-2015-2.jpg"
+  },
+  {
+    "Name_Item": "MacBook Air 2015",
+    "Count_shop": 1,
+    "Min_Price": 9990000,
+    "Image": "https://24hstore.vn/images/products/2020/04/08/large/macbook air-13-inch-mjve2-2017-5.jpg"
+  },
+  {
+    "Name_Item": "Mac Mini",
+    "Count_shop": 1,
+    "Min_Price": 18500000,
+    "Image": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/i/m/img-apple-main_1.jpg"
+  },
+  {
+    "Name_Item": "imac",
+    "Count_shop": 1,
+    "Min_Price": 22000000,
+    "Image": "https://cdn.cellphones.com.vn/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/i/m/imac-2021-1.jpg"
+  }
+]

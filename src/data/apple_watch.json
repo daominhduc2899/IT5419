@@ -1,0 +1,38 @@
+[
+    {
+      "Name_Item": "apple watch series 3",
+      "Count_shop": 2,
+      "Min_Price": 3590000,
+      "Image": "https://24hstore.vn/images/products/2018/07/30/large/apple-apple-watch-series-3-gps-day-cao-su-mat-nhom-den-black.png"
+    },
+    {
+      "Name_Item": "apple watch series 5",
+      "Count_shop": 2,
+      "Min_Price": 5990000,
+      "Image": "https://24hstore.vn/images/products/2020/05/21/large/apple-watch-series-5-mau-den.jpg"
+    },
+    {
+      "Name_Item": "apple watch series 6",
+      "Count_shop": 4,
+      "Min_Price": 6990000,
+      "Image": "https://24hstore.vn/images/products/2020/09/16/large/apple-watch-series-6-lte-black-44mm.jpg"
+    },
+    {
+      "Name_Item": "apple watch series 7",
+      "Count_shop": 4,
+      "Min_Price": 10590000,
+      "Image": "https://24hstore.vn/images/products/2021/10/14/large/apple-watch-series-7-black-45mm-lte.jpg"
+    },
+    {
+      "Name_Item": "apple watch SE",
+      "Count_shop": 4,
+      "Min_Price": 1168000,
+      "Image": "https://24hstore.vn/images/products/2020/09/16/large/apple-watch-se-lte-white.png"
+    },
+    {
+      "Name_Item": "apple watch series 4",
+      "Count_shop": 1,
+      "Min_Price": 5490000,
+      "Image": "https://24hstore.vn/images/products/2020/04/20/large/apple-watch-series-4-black.jpg"
+    }
+  ]

@@ -17,6 +17,11 @@ import Visualization from "./views/Visualization"
 import 'react-chat-widget/lib/styles.css'
 import axios from "axios";
 import api from './Api/api';
+import Ipad from './componet/sanPham/Ipad.js';
+import Watch from './componet/sanPham/apple_watch';
+import Mac from './componet/sanPham/mac';
+import Iphone13 from './componet/sanPham/iphone13pro';
+import Search from './componet/sanPham/search';
 // import { computeHeadingLevel } from '@testing-library/react';
 // const buttons = [{label: 'first', value: '1'}, {label: 'second', value: '2'}];
 // class Popup extends React.Component {
@@ -159,20 +164,20 @@ class App extends React.Component {
                       <a className="nav-link" href="#">Link</a>
                     </li>
                   </ul>
-                  <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style={{ backgroundColor: '#e3f2fd' }} />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
+                  <form className="form-inline my-2 my-lg-0" style={{marginLeft:'40rem'}}>
+            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style={{backgroundColor: '#e3f2fd', color:'black'}}/>
+            <a href="/s/iphone+13+pro" className="btn btn-primary">Search</a>
+          </form>
                 </div>
 
 
               </nav>
               <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                <a href="/form" className="btn btn-primary">Iphone</a>
-                <a href="/form" className="btn btn-primary">Ipad</a>
-                <a href="/form" className="btn btn-primary">Apple watch</a>
-                <a href="/form" className="btn btn-primary">MacBook</a>
-              </div>
+                    <a href="/iphone" className="btn btn-primary">Iphone</a>
+                    <a href="/ipad" className="btn btn-primary">Ipad</a>
+                    <a href="/watch" className="btn btn-primary">Apple watch</a>
+                    <a href="/mac" className="btn btn-primary">MacBook</a>
+                </div>
             </div>
             {/* <button onClick={this.togglePopup.bind(this)} target="_blank" rel="noreferrer" data-track-content="true" data-content-region-name="quickAction" data-content-name="fbMessengerIcon" class="css-1vv2dga">
               <img class="fb-chat" src="https://shopfront-cdn.tekoapis.com/static/a8e347d31db4d701.png" alt="fb-chat">
@@ -202,6 +207,12 @@ class App extends React.Component {
               <Route path="/contact" render={(props) => <Contact  {...props} user={this.state.user} {...props} />} />
               <Route path="/form" render={(props) => <FormRe  {...props} user={this.state.user} {...props} />} />
               <Route path="/reg" render={(props) => <Reg  {...props} user={this.state.user} {...props} />} />
+              <Route path="/iphone" render={(props) => <Iphone  {...props} user={this.state.user} {...props} />} />
+              <Route path="/ipad" render={(props) => <Ipad  {...props} user={this.state.user} {...props} />} />
+              <Route path="/watch" render={(props) => <Watch  {...props} user={this.state.user} {...props} />} />
+              <Route path="/mac" render={(props) => <Mac  {...props} user={this.state.user} {...props} />} />
+              <Route path="/iphone13pro" render={(props) => <Iphone13  {...props} user={this.state.user} {...props} />} />
+              <Route path="/s/iphone+13+pro" render={(props) => <Search  {...props} user={this.state.user} {...props} />} />
               <Route path="/visualization" render={(props) => <Visualization  {...props} user={this.state.user} {...props} />} />
               {/* <Route path="/:unknown">
                 <Page404 />
